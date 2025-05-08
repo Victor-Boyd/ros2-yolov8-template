@@ -9,7 +9,7 @@ import rclpy  # ROS2 Python library
 from rclpy.node import Node  # Base class for ROS2 nodes
 from cv_bridge import CvBridge  # Provides an interface between ROS messages and OpenCV
 from sensor_msgs.msg import Image  # ROS2 message type for images
-from yolov8_msgs.msg import Yolov8Inference, InferenceResult  # Custom message types for YOLOv8 inference results
+from yolov8_template_msgs.msg import Yolov8Inference, InferenceResult  # Custom message types for YOLOv8 inference results
 
 # Initialize the CvBridge
 cv_bridge = CvBridge()
