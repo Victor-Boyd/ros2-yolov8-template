@@ -8,4 +8,5 @@ An easy to use template for adding object detection to your robot IRL and in sim
 4. next run in order in your home directory (you can skip anything you already have installed) `sudo apt install python3-pip`, `sudo apt install python3-colcon-common-extensions`, `pip3 install ultralytics`.
 5. Now you can go through any of the files and see the many coments to help you understand whats going on and change paths to your workspace
 
-
+###Important
+This package is made to work with numpy 1.24.3 run `pip install numpy==1.24.3` if you are experiencing numpy related errors
